@@ -38,7 +38,7 @@ public class Pemilihan2Percobaan217 {
 
             } else if (pilihan_menu == 3) {
                 harga = 15000;
-                System.out.println("Harga Buncing = " + harga);
+                System.out.println("Harga Bunding = " + harga);
             } else {
                 System.out.println("Masukkan pilihan menu dengan benar");
                 return;
