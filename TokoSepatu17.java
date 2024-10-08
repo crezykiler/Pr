@@ -15,20 +15,52 @@ public class TokoSepatu17 {
     if (merk.equalsIgnoreCase("converse")) {
         System.out.print("pilih kategori apa (1. slip on / 2. high top) ? : ");
         kategori = input17.nextLine();
-        if (kategori.equals("1") || kategori.equalsIgnoreCase("slip on")) {
+        if (kategori.equals("1")) {
             System.out.print("pilih ukuran berapa (36-40) ? : ");
             ukuran = input17.nextInt();
-            if (ukuran >= 36 && ukuran <= 40) {
+            if (ukuran == 36 ) {
                 harga = 800000;
             System.out.println("Harga RP " + harga);
-            } else {
+            } if (ukuran == 37 ) {
+                harga = 800000;
+            System.out.println("Harga RP " + harga);
+            }
+            if (ukuran == 38 ) {
+                harga = 800000;
+            System.out.println("Harga RP " + harga);
+            }
+            if (ukuran == 39 ) {
+                harga = 800000;
+            System.out.println("Harga RP " + harga);
+            }
+            if (ukuran == 40 ) {
+                harga = 800000;
+            System.out.println("Harga RP " + harga);
+            }
+            else {
                 System.out.println("Masukan ukuran salah");
             }
-        } else if (kategori.equals("2") || kategori.equalsIgnoreCase("high top")) {
+        } else if (kategori.equals("2")) {
             System.out.print("pilih ukuran berapa (40-44) ? : ");
             ukuran = input17.nextInt();
-            if (ukuran >= 40 && ukuran <= 44) {
+            if (ukuran == 40 ) {
                 harga = 1200000;
+                System.out.println("Harga RP " + harga);
+                } 
+                if (ukuran == 41 ) {
+                    harga = 1200000;
+                System.out.println("Harga RP " + harga);
+                }
+                if (ukuran == 42 ) {
+                    harga = 1200000;
+                System.out.println("Harga RP " + harga);
+                }
+                if (ukuran == 43 ) {
+                    harga = 1200000;
+                System.out.println("Harga RP " + harga);
+                }
+                if (ukuran == 44 ) {
+                    harga = 1200000;
                 System.out.println("Harga RP " + harga);
                 } else {
                     System.out.println("Masukan ukuran salah");
@@ -40,22 +72,56 @@ public class TokoSepatu17 {
     } else if (merk.equalsIgnoreCase("sketcher")) {
         System.out.print("pilih kategori apa (1. woman / 2. man) ? : ");
         kategori = input17.nextLine();
-        if (kategori.equals("1") || kategori.equalsIgnoreCase("woman")) {
+        if (kategori.equals("1")) {
             System.out.print("pilih ukuran berapa (36-41) ? : ");
             ukuran = input17.nextInt();
-            if (ukuran >= 36 && ukuran <= 41) {
+            if (ukuran == 36 ) {
                 harga = 1000000;
             System.out.println("Harga RP " + harga);
-            } else {
+            } 
+            if (ukuran == 37 ) {
+                harga = 1000000;
+            System.out.println("Harga RP " + harga);
+            }
+            if (ukuran == 38 ) {
+                harga = 1000000;
+            System.out.println("Harga RP " + harga);
+            }
+            if (ukuran == 39 ) {
+                harga = 1000000;
+            System.out.println("Harga RP " + harga);
+            }
+            if (ukuran == 40 ) {
+                harga = 1000000;
+            System.out.println("Harga RP " + harga);
+            }
+            if (ukuran == 41 ) {
+                harga = 1000000;
+            System.out.println("Harga RP " + harga);
+            }
+            else {
                 System.out.println("Masukan ukuran salah");
             }
-        } else if (kategori.equals("2") || kategori.equalsIgnoreCase("man")){
+        } else if (kategori.equals("2")) {
             System.out.print("pilih ukuran berapa (41-44) ? : ");
             ukuran = input17.nextInt();
-            if (ukuran >= 41 && ukuran <= 44) {
+            if (ukuran == 41 ) {
                 harga = 1800000;
                 System.out.println("Harga RP " + harga);
-                } else {
+            }
+            if (ukuran == 42) {
+                harga = 1800000;
+                System.out.println("Harga RP " + harga);
+            } 
+            if (ukuran == 43) {
+                harga = 1800000;
+                System.out.println("Harga RP " + harga);
+            }
+            if (ukuran == 44) {
+                harga = 1800000;
+                System.out.println("Harga RP " + harga);
+            }
+            else {
                     System.out.println("Masukan ukuran salah");
                 }
         } else {
@@ -65,22 +131,51 @@ public class TokoSepatu17 {
     }else if (merk.equalsIgnoreCase("nike")) {
         System.out.print("pilih kategori apa (1. kid / 2. adult) ? : ");
         kategori = input17.nextLine();
-        if (kategori.equals("1") || kategori.equalsIgnoreCase("kid")) {
+        if (kategori.equals("1")) {
             System.out.print("pilih ukuran berapa (36-40) ? : ");
             ukuran = input17.nextInt();
-            if (ukuran >= 36 && ukuran <= 40) {
+            if (ukuran == 36 ) {
                 harga = 750000;
             System.out.println("Harga RP " + harga);
-            } else {
+            } 
+            if (ukuran == 37) {
+                harga = 750000;
+            System.out.println("Harga RP " + harga);
+            }
+            if (ukuran == 38 ) {
+                harga = 750000;
+            System.out.println("Harga RP " + harga);
+            }
+            if (ukuran == 39 ) {
+                harga = 750000;
+            System.out.println("Harga RP " + harga);
+            }
+            if (ukuran == 40 ) {
+                harga = 750000;
+            System.out.println("Harga RP " + harga);
+            }else {
                 System.out.println("Masukan ukuran salah");
             }
-        } else if (kategori.equals("2") || kategori.equalsIgnoreCase("adult")){
+        } else if (kategori.equals("2")) {
             System.out.print("pilih ukuran berapa (40-44) ? : ");
             ukuran = input17.nextInt();
-            if (ukuran >= 40 && ukuran <= 44) {
+            if (ukuran == 41) {
                 harga = 1500000;
                 System.out.println("Harga RP " + harga);
-                } else {
+            }
+            if (ukuran == 42) {
+                harga = 1500000;
+                System.out.println("Harga RP " + harga);
+            }
+            if (ukuran == 43) {
+                harga = 1500000;
+                System.out.println("Harga RP " + harga);
+            }
+            if (ukuran == 44) {
+                harga = 1500000;
+                System.out.println("Harga RP " + harga);
+            }
+            else {
                     System.out.println("Masukan ukuran salah");
                 }
         } else {
